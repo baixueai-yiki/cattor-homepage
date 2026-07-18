@@ -1,0 +1,28 @@
+<!DOCTYPE html><!-- 使用html5标准 -->
+<html lang="zh-CN"><!-- html的根标签，属性：lang="zh-CN"中文 -->
+
+<head><!-- 网页标题，使用UTF-8编码 -->
+    <meta charset="UTF-8">
+    <title>苹果网</title>
+    <link rel="icon" href="images/apple.png"><!--连接外部资源 关系=图标 文件地址=images/apple.png-->
+    <link rel="stylesheet" href="style.css"><!--连接外部资源 关系=样式表 地址=MessageBoard.css -->
+</head>
+
+<body><!-- 网页主体 -->
+
+<h1>留言板</h1><!-- 一级标题 -->
+<div class="board"><!--区域 名字="board" -->
+    <input id="nameInput" placeholder="你的名字"><!--创建输入框 id="nameInput" 提示文本="你的名字" -->
+    <textarea id="messageInput" placeholder="写点什么..."><!--多行输入框 id="messageInput" 提示文本="写点什么..." -->
+    </textarea><!-- 结束多行输入框 -->
+    <button id="submitBtn"><!--按钮 id="submitBtn" -->
+        留言
+    </button>
+    <div id="messageList"><!--区域 id="messageList" -->
+
+    </div><!--区域结束 id="messageList" -->
+</div><!--区域结束 名字="board" -->
+
+<script src="script.js"></script><!-- 执行js 来源=script.js -->
+</body><!-- 网页主体 -->
+</html><!-- html的根标签，属性：lang="zh-CN"中文 -->
