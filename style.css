@@ -1,0 +1,39 @@
+/*
+选择器{
+    属性: 值;
+}
+*/
+
+/*body（html的网页主体） 设置字体、设置背景*/
+body{
+    font-family:Arial;
+    background:#f5f5f5;
+}
+
+/*.代表类选择器，这里选择了board（留言板）
+宽400像素、外边距50像素（左右自动计算）、内边距20像素、设置背景颜色、圆角20像素*/
+.board{
+    width:400px;
+    margin:50px auto;
+    padding:20px;
+    background:white;
+    border-radius:20px;
+}
+
+/*这里同时设置了两个选择器：input输入框、textarea多行输入框
+宽：占父元素100%、与下方距离10像素、文字与边缘间距10像素*/
+input,textarea{
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+}
+/*多行输入框（上面那一段同时设置了两种元素）设置高度100像素*/
+textarea{
+    height:100px;
+}
+
+/*按钮（里面的字写在html）宽度占父元素100%、文字与边缘间距10像素*/
+button{
+    width:100%;
+    padding:10px;
+}
